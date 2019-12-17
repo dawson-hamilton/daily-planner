@@ -14,23 +14,23 @@ setInterval(function () {
 }, 1000);
 
 var nine = JSON.parse(localStorage.getItem('nine'));
-$("#nine").val(nineAM);
+$("#nine").val(nine);
 var ten = JSON.parse(localStorage.getItem('ten'));
-$("#ten").val(tenAM);
+$("#ten").val(ten);
 var eleven = JSON.parse(localStorage.getItem('eleven'));
-$("#eleven").val(elevenAM);
+$("#eleven").val(eleven);
 var twelve = JSON.parse(localStorage.getItem('twelve'));
-$("#twelve").val(twelvePM);
+$("#twelve").val(twelve);
 var thirteen = JSON.parse(localStorage.getItem('thirteen'));
-$("#thirteen").val(onePM);
+$("#thirteen").val(thirteen);
 var fourteen = JSON.parse(localStorage.getItem('fourteen'));
-$("#fourteen").val(twoPM);
+$("#fourteen").val(fourteen);
 var fifteen = JSON.parse(localStorage.getItem('fifteen'));
-$("#fifteen").val(threePM);
+$("#fifteen").val(fifteen);
 var sixteen = JSON.parse(localStorage.getItem('sixteen'));
-$("#sixteen").val(fourPM);
+$("#sixteen").val(sixteen);
 var seventeen = JSON.parse(localStorage.getItem('seventeen'));
-$("#seventeen").val(fivePM);
+$("#seventeen").val(seventeen);
 
 $("#saveBtn").on("click", function(){
 
