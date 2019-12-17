@@ -13,12 +13,27 @@ setInterval(function () {
     $("#currentDay").text(moment().format('MMMM Do YYYY,HH:mm:ss a'));
 }, 1000);
 
-$("#saveBtn").on("click", function() {
-    for(var i = 9; i < 17; i++){
-        var oneValue = $("#onepmtextarea").val();
-    console.log(oneValue)
-    localStorage.setItem('onePM', JSON.stringify(oneValue));
-    }
+var nine = JSON.parse(localStorage.getItem('nine'));
+$("#nine").val(nineAM);
+var ten = JSON.parse(localStorage.getItem('ten'));
+$("#ten").val(tenAM);
+var eleven = JSON.parse(localStorage.getItem('eleven'));
+$("#eleven").val(elevenAM);
+var twelve = JSON.parse(localStorage.getItem('twelve'));
+$("#twelve").val(twelvePM);
+var thirteen = JSON.parse(localStorage.getItem('thirteen'));
+$("#thirteen").val(onePM);
+var fourteen = JSON.parse(localStorage.getItem('fourteen'));
+$("#fourteen").val(twoPM);
+var fifteen = JSON.parse(localStorage.getItem('fifteen'));
+$("#fifteen").val(threePM);
+var sixteen = JSON.parse(localStorage.getItem('sixteen'));
+$("#sixteen").val(fourPM);
+var seventeen = JSON.parse(localStorage.getItem('seventeen'));
+$("#seventeen").val(fivePM);
+
+$("#saveBtn").on("click", function(){
+
 });
 
 //set color to green if within current time slot
