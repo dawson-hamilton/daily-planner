@@ -16,7 +16,7 @@ When First Opened:
 ![daily-planner](screenshots/daily-planner-without-info.png "first opened")
 ​
 With Info In Blocks:
-![daily-planner](screenshots/dailyplanner-with-info.png "with info in blocks")
+![daily-planner](screenshots/daily-planner-with-info.png "with info in blocks")
 ​
 ### Problem
 ​ 
