@@ -17,12 +17,15 @@ function hoursUpdater() {
         var blockDisplay = localStorage.getItem(blockKey);
         $(this).children("textarea").text(blockDisplay);
 
-        if (currentHour === blockHour) {
+        if (currentHour == blockHour) {
             $(this).children("textarea").css("background-color", "red");
+            console.log("red");
         } else if (currentHour < blockHour) {
             $(this).children("textarea").css("background-color", "green");
+            console.log("green");
         } else if (currentHour > blockHour) {
             $(this).children("textarea").css("background-color", "lightGrey");
+            console.log("lightgray");
         }
     });
 
